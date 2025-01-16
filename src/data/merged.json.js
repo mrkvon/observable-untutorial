@@ -1,3 +1,3 @@
-import { getRawWorldBankData } from "./getWorldBankData";
+import { getRawWorldBankData } from './getWorldBankData'
 
-const gdpPerCapita = getRawWorldBankData("");
+const gdpPerCapita = getRawWorldBankData('')
