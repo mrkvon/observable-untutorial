@@ -5,12 +5,6 @@ title: Wealth and Health of Nations
 
 # Wealth and Health of Nations
 
-BASED ON FREE [DATA](https://www.gapminder.org/data/) FROM [GAPMINDER.ORG](https://www.gapminder.org), CC-BY LICENSE
-
-[source code](https://github.com/mrkvon/observable-untutorial)
-
----
-
 ```ts
 const lex = FileAttachment('./data/lex.csv').csv()
 const pop = FileAttachment('./data/pop.csv').csv()
@@ -99,6 +93,14 @@ display(
   }),
 )
 ```
+
+## Sources
+
+BASED ON FREE [DATA](https://www.gapminder.org/data/) FROM [GAPMINDER.ORG](https://www.gapminder.org), CC-BY LICENSE
+
+[Source code](https://github.com/mrkvon/observable-untutorial)
+
+[Untutorial (Fun Fun Function)](https://www.youtube.com/watch?v=fA40FgHVnyI)
 
 ## Data
 
