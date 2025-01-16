@@ -1,3 +1,4 @@
 import { getWorldBankData } from "./getWorldBankData.js"
-const data = await getWorldBankData('NY.GDP.PCAP.KD')
+import { Indicator } from "./indicators.js"
+const data = await getWorldBankData(Indicator.GdpPerCapita)
 process.stdout.write(JSON.stringify(data))

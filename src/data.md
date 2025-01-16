@@ -56,7 +56,7 @@ display(gdpPerCapitaRaw)
 display(Plot.plot({
   title: 'GDP per capita',
   grid: true,
-  y: { label: 'gdp per capita' },
+  y: { label: 'gdp per capita', type: 'log', domain: [100, 200000] },
   //color: {legend: true},
   marks: [
     Plot.lineY(gdpPerCapitaRaw, {x: 'date', y: 'value', stroke: 'countryiso3code'}),
