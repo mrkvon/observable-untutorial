@@ -7,6 +7,8 @@ title: Wealth and Health of Nations
 
 BASED ON FREE [DATA](https://www.gapminder.org/data/) FROM [GAPMINDER.ORG](https://www.gapminder.org), CC-BY LICENSE
 
+[source code](https://github.com/mrkvon/observable-untutorial)
+
 ---
 
 ```ts
